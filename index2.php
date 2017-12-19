@@ -239,11 +239,11 @@ label{
 <div class="formulario">
 	<form action="" method="post">
 	<label for="name">Linea Principal*</label>
-	<input required> type="text" value="<?php if(isset($_POST['nombre'])){echo $_POST['nombre'];}?>" name="nombre" maxlength="30" placeholder="Nombre"><br/>
+	<input required type="text" value="<?php if(isset($_POST['nombre'])){echo $_POST['nombre'];}?>" name="nombre" maxlength="30" placeholder="Nombre"><br/>
 	<label for="dedicatoria">Dedicatoria linea 1</label>
-	<input required> type="text" value="<?php if(isset($_POST['dedicatoria'])){echo $_POST['dedicatoria'];}?>" name="dedicatoria" placeholder="Dedicatoria Linea 1"><br/>
+	<input required type="text" value="<?php if(isset($_POST['dedicatoria'])){echo $_POST['dedicatoria'];}?>" name="dedicatoria" placeholder="Dedicatoria Linea 1"><br/>
 	<label for="dedicatoria2">Dedicatoria linea 2</label>
-	<input required> type="text" value="<?php if(isset($_POST['dedicatoria2'])){echo $_POST['dedicatoria2'];}?>" name="dedicatoria2" placeholder="Dedicatoria Linea 2"><br/>
+	<input required type="text" value="<?php if(isset($_POST['dedicatoria2'])){echo $_POST['dedicatoria2'];}?>" name="dedicatoria2" placeholder="Dedicatoria Linea 2"><br/>
 	<p style="font-size:  20px; color: red; width: 100%;display:  inline-table;"> 3. Actualiza tu imagen</p>
 	<input name="submit" type="submit" class="btn btn-primary" value="Actualizar Imagen" style="margin: 3%;" />
 <p style="font-size:  20px; color: red; width: 100%;display:  inline-table;"> 4. Descarga la felicitación</p>
